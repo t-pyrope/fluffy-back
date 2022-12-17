@@ -1,0 +1,17 @@
+{
+  "name": "fluffy-back",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.14.1",
+    "koa-router": "^12.0.0",
+    "mongoose": "^6.8.0",
+    "mongoose-beautiful-unique-validation": "^7.1.1"
+  }
+}
