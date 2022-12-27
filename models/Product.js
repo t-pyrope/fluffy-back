@@ -12,10 +12,14 @@ const productSchema = new mongoose.Schema({
     },
     src: {
        type: String,
-       required: true
+       required: true,
+    },
+    thumbnail: {
+        type: String,
+        required: true,
     },
     description: [{
-        type: String,
+        type: [String],
     }],
 })
 
